@@ -11,6 +11,7 @@ int ft_isascii(int c);
 int ft_isdigit(int c);
 int ft_isprint(int c);
 int ft_isspace(char c);
+int ft_memcmp(const void *s1, const void *s2, size_t n);
 void *ft_memset(void *b, int c, size_t len);
 char *ft_strcat(char *dest, const char *src);
 char *ft_strchr(const char *s, int c);
