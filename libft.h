@@ -12,6 +12,7 @@ int ft_isdigit(int c);
 int ft_isprint(int c);
 int ft_isspace(char c);
 int ft_strcmp(const char *s1, const char *s2);
+char *ft_strcpy(char *dest, const char *src);
 size_t ft_strlen(const char *s);
 int ft_strncmp(const char *s1, const char *s2, size_t n);
 char *ft_strnstr(const char *str, const char *to_find, size_t len);
