@@ -26,6 +26,7 @@ char *ft_strcpy(char *dest, const char *src);
 char *ft_strdup(const char *s);
 int ft_strequ(const char *s1, const char *s2)
 int ft_strequ(const char *s1, const char *s2);
+char *ft_strjoin(const char *s1, const char *s2);
 size_t ft_strlcat(char *dst, const char *src, size_t size);
 size_t ft_strlen(const char *s);
 char *ft_strmapi(char const *s, char (*f)(unsigned int, char));
