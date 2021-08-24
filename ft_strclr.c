@@ -4,6 +4,6 @@ void ft_strclr(char *s)
 {
   if (s)
   {
-    ft_bzero(s, ft_strlen(s));
+    ft_bzero((void *) s, ft_strlen(s));
   }
 }
