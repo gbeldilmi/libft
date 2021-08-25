@@ -44,6 +44,7 @@ char *ft_strnew(size_t size);
 char *ft_strnstr(const char *str, const char *to_find, size_t len);
 char *ft_strrchr(const char *s, int c);
 char *ft_strstr(char *str, char *to_find);
+char *ft_strsub(const char *s, unsigned int start, size_t len);
 int ft_tolower(int c);
 int ft_toupper(int c);
 
