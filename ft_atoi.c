@@ -8,7 +8,7 @@ int ft_atoi(const char *nptr)
 
   nbr = 0;
   i = 0;
-  negative = 1;
+  neg = 1;
   while ((nptr[i] >= '\t' && nptr[i] <= '\r') || nptr[i] == ' ')
   {
     i++;
@@ -17,7 +17,7 @@ int ft_atoi(const char *nptr)
   {
     if (nptr[i] == '-')
     {
-      negative *= -1;
+      neg *= -1;
     }
     i++;
   }
@@ -26,5 +26,5 @@ int ft_atoi(const char *nptr)
     nbr = nbr * 10 + (nptr[i] - '0');
     i++;
   }
-  return (nbr * negative);
+  return (nbr * neg);
 }
