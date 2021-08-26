@@ -12,7 +12,7 @@ char *ft_strsub(const char *s, unsigned int start, size_t len)
     len_s = ft_strlen(s);
     if (len_s < start)
     {
-      str = ft_strdup("");
+      str = ft_strnew(0);
     }
     else
     {
