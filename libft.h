@@ -43,6 +43,7 @@ int ft_strnequ(const char *s1, const char *s2, size_t n);
 char *ft_strnew(size_t size);
 char *ft_strnstr(const char *str, const char *to_find, size_t len);
 char *ft_strrchr(const char *s, int c);
+char **ft_strsplit(char const *s, char c);
 char *ft_strstr(char *str, char *to_find);
 char *ft_strsub(const char *s, unsigned int start, size_t len);
 char *ft_strtrim(const char *s);
