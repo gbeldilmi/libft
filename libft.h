@@ -25,6 +25,7 @@ void *ft_memmove(void *dst, const void *src, size_t len);
 void *ft_memset(void *b, int c, size_t len);
 void ft_putchar(char c);
 void ft_putendl(char const *s);
+void ft_putnbr(int n);
 void ft_putstr(char const *s);
 char *ft_strcat(char *dest, const char *src);
 char *ft_strchr(const char *s, int c);
