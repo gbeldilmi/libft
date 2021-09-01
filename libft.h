@@ -2,8 +2,9 @@
 #define LIBFT_H
 
 #include <stdio.h>
-#include <string.h>
 #include <stdlib.h>
+#include <string.h>
+#include <unistd.h>
 
 int ft_atoi(const char *nptr);
 void ft_bzero(void *s, size_t n);
@@ -22,6 +23,7 @@ void *ft_memcpy(void *dst, const void *src, size_t n);
 void ft_memdel(void **ap);
 void *ft_memmove(void *dst, const void *src, size_t len);
 void *ft_memset(void *b, int c, size_t len);
+void ft_putchar(char c);
 char *ft_strcat(char *dest, const char *src);
 char *ft_strchr(const char *s, int c);
 void ft_strclr(char *s);
