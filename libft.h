@@ -22,6 +22,7 @@ int ft_isdigit(int c);
 int ft_isprint(int c);
 int ft_isspace(char c);
 char *ft_itoa(int n);
+t_list *ft_lstnew(const void *content, size_t content_size);
 void *ft_memalloc(size_t size);
 void *ft_memccpy(void *dst, const void *src, int c, size_t n);
 void *ft_memchr(const void *s, int c, size_t n);
