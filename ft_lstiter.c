@@ -9,7 +9,7 @@ void ft_lstiter(t_list *lst, void (*f)(t_list *elem))
     i = lst;
     while (i)
     {
-      f(i->content);
+      f(i);
       i = i->next;
     }
   }
